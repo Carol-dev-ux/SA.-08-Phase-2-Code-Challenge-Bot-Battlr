@@ -1,0 +1,57 @@
+.bot-collection {
+  margin-bottom: 20px;
+}
+
+.bot-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bot-card {
+  width: calc(20% - 20px); /* Adjust the width as needed for 5 columns */
+  margin-bottom: 20px;
+  border: 1px solid #ffcccc;
+  border-radius: 10px;
+  padding: 5px; /* Adjust the padding as needed */
+  background-color: #fff3f3;
+}
+
+.bot-card h3 {
+  margin-top: 0;
+  color: #ff66a3;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.bot-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.bot-card p {
+  margin-bottom: 5px; /* Adjust the margin as needed */
+  font-size: 12px; /* Adjust the font size as needed */
+  max-width: 100%; /* Limiting width */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+}
+
+.bot-card button {
+  background-color: #ff66a3;
+  color: #fff;
+  border: none;
+  padding: 4px 8px; /* Adjust the padding as needed */
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.bot-card button:hover {
+  background-color: #ff3385;
+}
+
+
+
+
+
